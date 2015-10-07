@@ -4,7 +4,6 @@ import {Component, FORM_DIRECTIVES, View} from 'angular2/angular2';
 @View({
 	template: `
 		<h2>Dashboard</h2>
-		<div>Hello {{name}}</div>
 		<input [(ng-model)]="name" />
         <input [(ng-model)]="emailAddress" />
 		<button (click)="addAttendee()">Add Attendee</button>
